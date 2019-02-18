@@ -1,0 +1,85 @@
+/* Jonathan Lucki */
+/* Personal Website CSS */
+
+body {
+    background-image: url("background.JPG");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 1rem 1rem 1rem 1rem;
+    font-family: Trebuchet MS,sans-serif;
+}
+
+.wrapper {
+    
+}
+
+.header {
+    margin: auto;
+    padding: 1rem 1rem 1rem 1rem;
+    max-width: 42rem;
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.logo {
+    text-align:center;
+}
+
+.logo a {
+    font-weight: bold;
+    font-size: 6rem;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s color;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 0;
+    text-align:center;
+    font-weight: bold;
+}
+
+.navbar li {
+    display:inline;
+}
+
+.navbar a {
+    display:inline-block;
+    padding-right: 0.3em;
+    padding-left: 0.3em;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s color;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+.hr-custom {
+    font-size: 0px;
+    line-height: 1px;
+    background-color: gray;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.content {
+    margin: 1rem auto 1rem auto;
+    padding: 2rem 2rem 2rem 2rem;
+    max-width: 40rem;
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.content a {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s color;
+}
+
+.content a:hover {
+    color: darkgray;
+}
