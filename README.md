@@ -1,0 +1,1 @@
+This was the first version of my personal website, and my first website, originally created in April 2018.
